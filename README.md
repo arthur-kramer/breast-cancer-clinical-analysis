@@ -35,15 +35,6 @@ Dataset source: [Kaggle – Breast Cancer Prediction](https://www.kaggle.com/dat
 - Statistical Tests: Shapiro-Wilk (normality), Mann-Whitney U and Chi-Square (group comparisons)
 - Exploratory Analysis: Histograms, boxplots, scatterplots, stacked bar charts
 
-## 📈 Key Results
-
-- Normality Tests: Age and tumor size are not normally distributed.
-- Hypothesis 1: Tumor size differs significantly between benign and malignant diagnoses (p < 0.05).
-- Hypothesis 2: Patient age differs significantly between benign and malignant diagnoses (p < 0.05).
-- Hypothesis 3: Tumor size differs significantly between patients with and without family history of breast cancer (p < 0.05).
-- Hypothesis 4: There is a significant association between family history and diagnostic outcome (p < 0.05).
-- Hypothesis 5: There is a significant association between menopause status and diagnostic outcome. (p < 0.05).
-
 ## 📊 Dataset Exploration
 
 ### **Histogram and Boxplot of Age**
@@ -69,3 +60,12 @@ Dataset source: [Kaggle – Breast Cancer Prediction](https://www.kaggle.com/dat
 
 ### **Scatterplot between Age and Tumor Size by Diagnosis**
 <img width="757" height="488" alt="image" src="https://github.com/user-attachments/assets/762bff53-fa9e-4853-aea4-b44094f45714" />
+
+## 📈 Key Results
+
+- Normality Tests: Age and tumor size are not normally distributed.
+- Hypothesis 1: Tumor size differs significantly between benign and malignant diagnoses (p < 0.05).
+- Hypothesis 2: Patient age differs significantly between benign and malignant diagnoses (p < 0.05).
+- Hypothesis 3: Tumor size differs significantly between patients with and without family history of breast cancer (p < 0.05).
+- Hypothesis 4: There is a significant association between family history and diagnostic outcome (p < 0.05).
+- Hypothesis 5: There is a significant association between menopause status and diagnostic outcome. (p < 0.05).
